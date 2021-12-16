@@ -1,0 +1,13 @@
+# Jupyter checkpoints
+**/.ipynb_checkpoints
+
+# PyCharm and mac and azure ml and VS Code files
+.idea
+.vscode
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+## Linux trash folder which might appear on any partition or disk
+.Trash-*
