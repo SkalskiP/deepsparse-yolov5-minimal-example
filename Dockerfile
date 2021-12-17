@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.8
 
 RUN apt-get update && apt-get upgrade -y && apt-get install git libgl1-mesa-glx -y && pip install --upgrade pip
 
