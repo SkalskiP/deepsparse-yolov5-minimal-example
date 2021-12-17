@@ -9,4 +9,6 @@ RUN mkdir -p /project
 COPY . /project
 WORKDIR /project
 
+RUN git clone https://github.com/neuralmagic/deepsparse.git
+
 ENTRYPOINT [ "/bin/bash" ]
